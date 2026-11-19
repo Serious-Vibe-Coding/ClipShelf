@@ -1,0 +1,33 @@
+# Local libraries, backups, and private notes.
+/data/
+/.local/
+/.scratch/
+/backups/
+/restored-library/
+/docs/DEMO_ACCOUNTS*
+/docs/TESTING_PRE_ACCOUNTS.md
+
+# Database, credentials, runtime output, and Python caches.
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+*.pid
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Publish only synthetic media fixtures and the reviewed sign-in screenshot.
+*.mp4
+*.mov
+!tests/fixtures/*.mp4
+!tests/fixtures/*.mov
+/docs/*.jpg
+!/docs/sign-in.jpg
