@@ -18,11 +18,27 @@ ClipShelf uses Python's standard library, SQLite, and plain HTML/CSS/JavaScript.
 
 Requires **Python 3.10 or newer** and a browser. Linux is the tested platform.
 
+### Download ZIP — no Git required
+
+1. [Download ClipShelf as a ZIP](https://github.com/Serious-Vibe-Coding/ClipShelf/archive/refs/heads/main.zip), or choose **Code → Download ZIP** on this repository.
+2. Extract the ZIP. Open a terminal in the extracted `ClipShelf-main` folder, which contains `server.py`.
+3. Check that Python is installed with `python3 --version` (3.10 or newer), then start the app:
+
+   ```bash
+   python3 server.py
+   ```
+
+No `pip install`, API key, or GitHub sign-in is needed. Create your own local account in the browser; downloaded copies contain no existing accounts or clips.
+
+### Or clone with Git
+
 ```bash
 git clone https://github.com/Serious-Vibe-Coding/ClipShelf.git
 cd ClipShelf
 python3 server.py
 ```
+
+### Open your library
 
 Open [http://127.0.0.1:8765](http://127.0.0.1:8765), choose **Create account**, and enter a name, email, and password of at least six characters. Your library starts empty. The email is a local sign-in identifier; the app sends no email.
 
